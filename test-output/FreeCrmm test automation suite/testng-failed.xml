@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [FreeCrmm test automation suite]" parallel="none">
+  <listeners>
+    <listener class-name="com.qa.crm.ExtentReportListener.ExtentReporterNG"/>
+  </listeners>
+  <test name=" FreeCrmm Regression suite (failed)" parallel="none">
+    <classes>
+      <class name="com.qa.crm.tests.LoginPageTest">
+        <methods>
+          <include name="LoginTest"/>
+          <include name="fLoginbtnTest"/>
+          <include name="TearDown"/>
+          <include name="setUp"/>
+          <include name="crmLogoTest"/>
+          <include name="fLoginclickTest"/>
+        </methods>
+      </class> <!-- com.qa.crm.tests.LoginPageTest -->
+    </classes>
+  </test> <!--  FreeCrmm Regression suite (failed) -->
+</suite> <!-- Failed suite [FreeCrmm test automation suite] -->
