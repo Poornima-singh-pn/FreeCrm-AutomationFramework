@@ -53,9 +53,9 @@ public class ContactsPage extends Testbase{
 		}
 		
 		public void CreateNewContact( String FName, String LName, String ComName){
-			FirstName.sendKeys("FName");
-			LastName.sendKeys("LName");
-			CompanyName.sendKeys("ComName");
+			FirstName.sendKeys(FName);
+			LastName.sendKeys(LName);
+			CompanyName.sendKeys(ComName);
 			SaveBtn.click();
 			
 			
